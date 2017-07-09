@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500659CE1F12AD01008404FD /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 500659CD1F12AD01008404FD /* bell.mp3 */; };
+		500659D01F12AE67008404FD /* bell2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 500659CF1F12AE67008404FD /* bell2.mp3 */; };
+		500659D21F12B104008404FD /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 500659D11F12B104008404FD /* song.mp3 */; };
 		50BB40AA1F1046860010A3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB40A91F1046860010A3EE /* AppDelegate.swift */; };
 		50BB40AC1F1046860010A3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB40AB1F1046860010A3EE /* ViewController.swift */; };
 		50BB40AF1F1046860010A3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BB40AD1F1046860010A3EE /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		500659CD1F12AD01008404FD /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		500659CF1F12AE67008404FD /* bell2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell2.mp3; sourceTree = "<group>"; };
+		500659D11F12B104008404FD /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		50BB40A61F1046860010A3EE /* SimonSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BB40A91F1046860010A3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50BB40AB1F1046860010A3EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500659CC1F12ACC6008404FD /* music */ = {
+			isa = PBXGroup;
+			children = (
+				500659D11F12B104008404FD /* song.mp3 */,
+				500659CF1F12AE67008404FD /* bell2.mp3 */,
+				500659CD1F12AD01008404FD /* bell.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
 		50BB409D1F1046860010A3EE = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +93,7 @@
 		50BB40A81F1046860010A3EE /* SimonSays */ = {
 			isa = PBXGroup;
 			children = (
+				500659CC1F12ACC6008404FD /* music */,
 				50BB40A91F1046860010A3EE /* AppDelegate.swift */,
 				50BB40AB1F1046860010A3EE /* ViewController.swift */,
 				50BB40AD1F1046860010A3EE /* Main.storyboard */,
@@ -182,8 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BB40B41F1046860010A3EE /* LaunchScreen.storyboard in Resources */,
+				500659CE1F12AD01008404FD /* bell.mp3 in Resources */,
+				500659D21F12B104008404FD /* song.mp3 in Resources */,
 				50BB40B11F1046860010A3EE /* Assets.xcassets in Resources */,
 				50BB40AF1F1046860010A3EE /* Main.storyboard in Resources */,
+				500659D01F12AE67008404FD /* bell2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +434,7 @@
 				50BB40C51F1046860010A3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50BB40C61F1046860010A3EE /* Build configuration list for PBXNativeTarget "SimonSaysTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +443,7 @@
 				50BB40C81F1046860010A3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
