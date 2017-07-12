@@ -21,36 +21,90 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ZO-2H-3t0">
-                                <rect key="frame" x="213" y="39" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0099468241871534246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gf7-Jj-ClY">
                                 <rect key="frame" x="67" y="531" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.99931146201844934" blue="0.0012486093737952286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Agb-8c-D8U">
-                                <rect key="frame" x="454" y="203" width="162" height="128"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5BE-tH-iQv">
+                                <rect key="frame" x="158" y="296" width="85" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.080762223663329191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.97848408880455473" green="1" blue="0.0023900088489265947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-8T-RbJ">
-                                <rect key="frame" x="53" y="227" width="158" height="128"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NwI-mQ-YsR">
+                                <rect key="frame" x="270" y="288" width="85" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.17991071663819058" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.019891490399700618" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sg5-Gw-EEE">
+                                <rect key="frame" x="380" y="288" width="85" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.094606803697699693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dss-im-Fa4">
+                                <rect key="frame" x="33" y="296" width="85" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.11647947311906659" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-down" translatesAutoresizingMaskIntoConstraints="NO" id="CGu-6o-fbL">
+                                <rect key="frame" x="145" y="28" width="89" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-left" translatesAutoresizingMaskIntoConstraints="NO" id="4vR-2o-tBa">
+                                <rect key="frame" x="20" y="28" width="89" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-up" translatesAutoresizingMaskIntoConstraints="NO" id="ESC-ar-cDH">
+                                <rect key="frame" x="260" y="28" width="95" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-right" translatesAutoresizingMaskIntoConstraints="NO" id="rp7-Oa-hmW">
+                                <rect key="frame" x="388" y="28" width="104" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Mr-pv-m6O">
+                                <rect key="frame" x="564.5" y="28" width="62.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Progress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qz4-eD-dYB">
+                                <rect key="frame" x="442" y="162" width="164" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="0.88647536471641741" blue="0.061851565885053472" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Mr-pv-m6O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="1jJ-lq-4yR"/>
+                            <constraint firstAttribute="trailing" secondItem="3Mr-pv-m6O" secondAttribute="trailing" constant="40" id="ooz-rR-Orl"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="redBox" destination="0ZO-2H-3t0" id="ftS-2A-0by"/>
+                        <outlet property="backgroundView" destination="8bC-Xf-vdC" id="cfj-5d-d4e"/>
+                        <outlet property="downArrow" destination="CGu-6o-fbL" id="Vyh-UK-OBm"/>
+                        <outlet property="downBox" destination="5BE-tH-iQv" id="QY5-xA-miC"/>
+                        <outlet property="leftArrow" destination="4vR-2o-tBa" id="xtZ-wj-f9i"/>
+                        <outlet property="leftBox" destination="dss-im-Fa4" id="9a6-ym-Mww"/>
+                        <outlet property="progessLabel" destination="qz4-eD-dYB" id="yda-bD-Qz7"/>
+                        <outlet property="rightArrow" destination="rp7-Oa-hmW" id="Mvu-Zm-Rge"/>
+                        <outlet property="rightBox" destination="sg5-Gw-EEE" id="i8l-km-eN5"/>
+                        <outlet property="scoreLabel" destination="3Mr-pv-m6O" id="MBy-DE-PwX"/>
+                        <outlet property="upArrow" destination="ESC-ar-cDH" id="B6P-RA-Taw"/>
+                        <outlet property="upBox" destination="NwI-mQ-YsR" id="jn4-f7-poa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="104.7976011994003"/>
+            <point key="canvasLocation" x="136.28185907046478" y="103.2"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow-down" width="128" height="128"/>
+        <image name="arrow-left" width="128" height="128"/>
+        <image name="arrow-right" width="128" height="128"/>
+        <image name="arrow-up" width="128" height="128"/>
+    </resources>
 </document>
